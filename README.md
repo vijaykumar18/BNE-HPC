@@ -5,9 +5,9 @@ This document provides instructions for setting up and running the Bayesian Nonp
 * Globus setup between local machine (Harmattan), Columbia HPC, TAMU ACES, and NSF Open Storage Network (OSN).
 * Columbia HPC account setup on the Insomnia cluster.
 * Running BNE on the Insomnia cluster of Columbia HPC.
-* NSF Access Accelerate grant and account integration.
+* NSF ACCESS Accelerate grant and account integration.
 * NSF Open Storage Network (OSN) account setup and Globus configuration.
-* Texas A\&M University (TAMU) ACES account setup for utilizing the TAMU supercomputer.
+* Texas A\&M University (TAMU) ACES account setup for utilizing the TAMU HPC cluster.
 
 
 
