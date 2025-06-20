@@ -27,16 +27,16 @@ To set up a Globus transfer between the various locations:
 
 ### 3. Running BNE on the Insomnia Cluster of Columbia HPC
 
-The `run_parallel.sh` script allows you to submit jobs to the HPC cluster. Here's how to run the BNE model:
+The `parallel_run_BNE.sh` script allows you to submit jobs to the HPC cluster. Here's how to run the BNE model:
 
 1. Clone this repository to your local machine:
 
-2. Edit the batch script `run_parallel.sh` to reflect your job parameters (e.g., memory, number of cores).
+2. Edit the batch script `parallel_run_BNE.sh` to reflect your job parameters (e.g., memory, number of cores).
 
 3. Submit the job to the cluster:
 
 ```bash
-sbatch run_parallel.sh
+sbatch parallel_run_BNE.sh
 ```
 
 4. Monitor the job with the SLURM job scheduler. Check job status using:
@@ -56,7 +56,7 @@ To utilize NSF ACCESS-funded HPC clusters, follow these steps:
 
 For large-scale data storage:
 
-1. Apply for an OSN account: [NSF Open Storage Network (OSN) Info](https://www.nsf.gov/).
+1. Apply for an OSN account: [NSF Open Storage Network (OSN) Info](https://access-ci.org/).
 2. Once granted access, configure Globus Transfer to facilitate data movement between OSN and your HPC resources.
 
 For more detailed steps on transferring data between the Open Storage Network and your computing cluster, refer to the official [Globus Documentation](https://www.globus.org/documentation).
@@ -84,11 +84,11 @@ Prediction is done using the MATLAB script `make_predict_1.m`. We need other MAT
 
 You can run this script on your HPC system using SLURM:
 
-1. Edit the `run_parallel.sh` script to adjust the job parameters (e.g., memory, number of cores).
+1. Edit the `parallel_run_BNE.sh` script to adjust the job parameters (e.g., memory, number of cores).
 2. Submit the job to the cluster:
 
 ```bash
-sbatch run_parallel.sh
+sbatch parallel_run_BNE.sh
 ```
 
 ### 3. Output Data
