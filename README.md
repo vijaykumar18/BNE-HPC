@@ -80,7 +80,7 @@ The preprocessing of the data is done using R via the bneR framework. Ensure tha
 
 ### 2. Prediction with MATLAB
 
-Prediction is done using the MATLAB script `make_predict_1.m`. We need other MATLAB files and functions provided in the "https://github.com/jaime-benavides/bneR/code/bne_core".
+Prediction is done using the MATLAB script `make_predict_1.m`. We need other MATLAB files and functions provided in the "https://github.com/jaime-benavides/bneR/code/bne_core](https://github.com/jaime-benavides/bneR/tree/main/code/bne_core".
 
 You can run this script on your HPC system using SLURM:
 
