@@ -93,4 +93,4 @@ sbatch parallel_run_BNE.sh
 
 ### 3. Output Data
 
-The output will be generated in the specified folder structure. Data can be downloaded via Globus Traer or retrieved from the 
+The output will be generated in the specified folder structure. Data can be downloaded via Globus. 
